@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- The base of the coin (thickness) -->
+  <path d="M150,255 C67.157,255 0,221.438 0,180 L0,210 C0,251.438 67.157,285 150,285 C232.843,285 300,251.438 300,210 L300,180 C300,221.438 232.843,255 150,255 Z" fill="#D6921F"/>
+
+  <!-- Upper part of the coin (main circle) -->
+  <ellipse cx="150" cy="180" rx="150" ry="75" fill="#FFBF36"/>
+
+  <!-- Inner circle on the coin -->
+  <ellipse cx="150" cy="180" rx="120" ry="60" fill="#EFAA2A"/>
+</svg>
