@@ -1,7 +1,10 @@
 # Non-Ergodic Coin Game
 
-The Non-Ergodic Coin Game is an interactive simulation that demonstrates the concept of non-ergodicity in probability and statistics.
-This application visualizes how ensemble averages can differ from time averages in certain stochastic processes, a key concept in understanding risk and decision-making under uncertainty.
+Interactive simulation showing a paradox that applies to markets and life: even when the average outcome is positive, most individuals can still lose over time.
+
+Players bet on coin flips where winning gives +50% and losing takes -40% of their current capital. This seemingly favorable setup (positive expected value) hides a brutal truth: most players eventually go broke.
+
+You can adjust win/loss percentages, number of players, and other parameters to explore how different conditions affect outcomes.
 
 ![Non-Ergodic Coin Game](preview.jpg)
 
