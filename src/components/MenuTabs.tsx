@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "./Button";
+import { GitHubLink } from "./GitHubLink";
 
 interface TabNavigationProps {
   selectedTab: string;
@@ -24,10 +25,13 @@ export const TabNavigation: React.FC<TabNavigationProps> = ({
   );
 
   return (
-    <div className="flex space-x-2 mb-4">
-      {renderTab("simulation", "Simulation")}
-      {renderTab("settings", "Settings")}
-      {renderTab("help", "Help")}
+    <div className="flex justify-between items-center mb-4">
+      <div className="flex space-x-2">
+        {renderTab("simulation", "Simulation")}
+        {renderTab("settings", "Settings")}
+        {renderTab("help", "Help")}
+      </div>
+      <GitHubLink repoUrl="https://github.com/petersolopov/non-ergodic-coin-game" />
     </div>
   );
 };
