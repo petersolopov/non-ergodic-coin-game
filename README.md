@@ -7,7 +7,7 @@ This application visualizes how ensemble averages can differ from time averages 
 
 ## Game
 
-This project simulates a game where players start with the same capital and bet on coin flips. Each round, players either gain or lose a percentage of their capital. The simulation visualizes how player capital evolves over time and compares theoretical vs. actual results.
+Online interactive [simulation](https://solopov.dev/non-ergodic-coin-game) shows a game where players start with the same capital and bet on coin flips. Each round, players either gain or lose a percentage of their capital. The simulation visualizes how player capital evolves over time and compares theoretical versus actual results.
 
 ## Features
 
@@ -47,6 +47,8 @@ npm run build
 
 MIT License. See [LICENSE](LICENSE) for details.
 
-## Acknowledgements
+## Inspired
 
-Inspired by the [work of Ole Peters](https://www.nature.com/articles/s41567-019-0732-0) on ergodicity economics and the mathematics of non-ergodic processes.
+- [Article of Ole Peters](https://www.nature.com/articles/s41567-019-0732-0) on ergodicity economics and the mathematics of non-ergodic processes.
+- Nassim Taleb who frequently discusses the concept of non-ergodicity in his books, particularly in "Skin in the Game"
+- Maxim Dorofeev who provides accessible explanations of such concepts in his popular science works.
